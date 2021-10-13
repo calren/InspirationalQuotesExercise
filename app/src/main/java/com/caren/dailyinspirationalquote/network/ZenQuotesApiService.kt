@@ -8,8 +8,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 
-// TODO Fill out the BASE_URL here
-private const val BASE_URL = ""
+private const val BASE_URL = "https://zenquotes.io/api/"
 
 // Added to print out network requests and responses in Logcat
 // Available via the dependency added in build.gradle: com.squareup.okhttp3:logging-interceptor:4.7.2
